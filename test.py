@@ -23,7 +23,7 @@ if __name__ == '__main__':
     '''
     print('==========================================')
     csv_file = input('Enter the CSV file to be analyzed:')
-    test_csv = pd.read_csv(csv_file, header = None)
+    test_csv = pd.read_csv('data/' + csv_file, header = None)
     print(test_csv.info)
 
     '''
