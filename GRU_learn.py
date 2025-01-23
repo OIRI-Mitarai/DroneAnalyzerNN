@@ -105,6 +105,6 @@ if __name__ == '__main__':
     '''
     learning model save
     '''
-    open('gru_model.json', 'w').write(model.to_json())
+    # open('gru_model.json', 'w').write(model.to_json())
     # model.save_weights('gru_model.weights.h5')
     model.save('gru_model.h5')
